@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:ital@1&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.Logo {
+  font-family: "Righteous";
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.navBar {
+  font-family: "roboto";
+  font-size: 22px;
+  padding-right: 28%;
+}
+
+.PandingLogo {
+  padding-left: 20%;
+}
+
+.container0 {
+  height: 15vh;
+  
+}
+
+.FirstImage {
+  height: 350px;
+  border-radius: 50%;
+  object-fit: unset;
+}
+
+.container1 {
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.section1 {
+  padding-top: 24vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section1 button {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.Name {
+  padding-left: 5%;
+}
+
+.NameSub {
+  font-size: 1.5rem;
+  padding-left: 3rem;
+}
+
+.section2 {
+  padding-top: 10vh;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.section3, .section4 {
+  text-align: center;
+  font-family: "roboto";
+}
+
+.Description {
+  font-size: 25px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.section4 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.ContentIcons1 {
+  padding-top: 10px;
+}
+
+.container3 {
+  text-align: center;
+}
+
+.Project1, .Project2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.AjustBtn a {
+  margin-top: 49px;
+}
+
+.AjustBtn2 a {
+  margin-top: 22px;
+}
+
+.card-body {
+  border-bottom: 10px;
+}
+
+.card {
+  border-top: 10px;
+}
+
+.TitlePort {
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-family: "Fjalla";
+}
+
+.IconHover, .CardHover, .FirstPageHover, .TextHover {
+  transition: transform 1s;
+}
+
+.IconHover:hover {
+  transform: scale(1.5);
+}
+
+.CardHover:hover{
+  transform: scale(1.15);
+}
+
+.FirstPageHover:hover {
+  transform: scale(1.15);
+}
+
+.TextHover:hover {
+  transform: scale(1.10);
+}
+
+.container4 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.ContactIcons {
+  transition: transform 1s;
+  padding: 10px;
+}
+
+.ContactIcons:hover {
+  transform: scale(1.5);
+}
+
+.footer {
+  height: 15vh;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+@media (max-width: 990px) {
+  h1 {
+    font-size: 40px;
+  }
+  .FirstImage {
+    width: auto;
+    height: auto;
+  }
+
+  .PandingLogo {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 750px) {
+  .container1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .container2 {
+    padding-top: 100px;
+  }
+
+  .section1 {
+    padding-top: 10vh;
+    padding-left: 10px;
+  }
+
+
+
+  .ContactIcons, .IconHover {
+    width: 15%;
+    height: 15%;
+  }
+
+  
+}
+
+@media (max-width: 450px) {
+    .FirstImage {
+      width: 225px;
+      height: 225px;
+    }
+}
