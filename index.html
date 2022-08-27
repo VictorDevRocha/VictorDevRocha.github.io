@@ -5,47 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Victor Rocha</title>
   </head>
   <body>
-    <div class="container0">
-      <nav class="navbar bg-transparent navbar-expand-lg">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand PandingLogo" href="#"><p class="Logo ">VIC</p></a>
+          <a class="navbar-brand marginLogo" href="#"><p class="Logo ">VIC</p></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav navBar">
-              <a class="nav-link active" aria-current="page" href="#Sobre">Sobre</a>
-              <a class="nav-link active" aria-current="page" href="#Portfolio">Projetos</a>
-              <a class="nav-link active" aria-current="page" href="#Contato">Contato</a>
+              <a class="nav-link active" aria-current="page" href="#Sobre">SOBRE</a>
+              <a class="nav-link active" aria-current="page" href="#Portfolio">PROJETOS</a>
+              <a class="nav-link active" ar ia-current="page"href="#Contato">CONTATO</a>
             </div>
           </div>
         </div>
       </nav>
-   </div>
 
     <div class="container1">
       <section class="section1" data-aos="fade-down"
       data-aos-easing="linear" data-aos-duration="1200">
         <p class="h2 FirstPageHover">Olá, me chamo</p>
-        <p class="h1 Name FirstPageHover">Victor Rocha</p>
-        <small class="text-muted NameSub FirstPageHover">Desenvolvedor Web <br> Full-Stack</small>
-        <a href="#Contato"><button type="button" class="btn btn-outline-secondary ButtonName btn-lg FirstPageHover">Contatos</button></a>
+        <h1 class="h1 Name FirstPageHover">Victor Rocha</h1>
+        <small class="text-muted NameSub FirstPageHover"><p> Desenvolvedor Web</p></small>
+        <br>
+        <a href="#Contato"><button type="button" class="btn btn-outline-dark btn-lg FirstPageHover">Contatos</button></a>
       </section>
       <section class="section2" data-aos="fade-down-right" data-aos-duration="1200">
-        <img src="./image/eu.png" class="FirstImage TextHover" alt="...">
+        <img src="./image/2.jpg" class="FirstImage TextHover" alt="...">
       </section>
     </div>
   <div class="container2"  id="Sobre"  data-aos="fade-down"
   data-aos-easing="linear" data-aos-duration="1200">
     <section class="section3">
       <h1 class="TitleDescription TextHover">SOBRE MIM</h1>
-        <p class="Description TextHover">Sou Desenvolvedor Web Full-Stack e possuo experiencia em projetos usando Javascript como linguagem de programação, minhas Soft Skills principais são: foco, agilidade, comunicação e solução de problemas. </p>
+        <p class="Description TextHover">Sou Desenvolvedor Web Front-end e possuo experiencia em projetos usando Javascript como linguagem de programação, minhas Soft Skills principais são: foco, agilidade, comunicação e solução de problemas.</p>
     </section>
     <section class="section4">
       <h1 class="TextHover">TECNOLOGIAS</h1>
@@ -54,7 +53,7 @@
         <img src="./image/photo/boot.png" alt="BOOTSTRAP" class="IconHover"/>
         <img src="./image/photo/css.png" alt="CSS3" class="IconHover"/>
         <img src="./image/photo/node.png" alt="NODEJS" class="IconHover"/>
-        <img src="./image/photo/react.png" alt="REACT" class="IconHover"/>
+        <img src="./image/photo/react.png" alt="REACT" class="IconHover iconWidht"/>
         <img src="./image/photo/java.png" alt="java" class="IconHover"/>
         <img src="./image/photo/type.png" alt="typescript" class="IconHover"/>
         <img src="./image/photo/gitt.png" alt="git" class="IconHover"/>
@@ -63,68 +62,64 @@
     </section>
   </div>
 
-  <div class="container3" id="Portfolio" data-aos="fade-down"
-  data-aos-easing="linear" data-aos-duration="1200">
+  <div class="container3" id="Portfolio" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1200">
     <h1 class="TextHover">MEUS PROJETOS</h1>
-    <div class="Project1">
-      <div class="card AjustBtn2 CardHover" style="width: 18rem;">
-        <img src="./image/card/buscador.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Buscador-CEP</h5>
-          <p class="card-text">Projeto desenvolvido consumindo uma API externa onde consulta o CEP digitando pelo usuário e devolve um arquivo ".json" com informações do endereço, foi desenvolvido principalmente com ReactJs.</p>
-          <a href="https://github.com/VictorDevRocha/Buscador-CEP" target="_blank" class="btn btn-primary">Ir para o GitHub</a>
+      <div class="Project1">
+        <div class="card AjustBtn2 CardHover" style="width: 18rem;">
+          <img src="./image/card/buscador.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buscador-CEP</h5>
+            <p class="card-text">Projeto desenvolvido consumindo uma API externa onde consulta o CEP digitando pelo usuário e devolve um arquivo ".json" com informações do endereço, foi desenvolvido principalmente com ReactJs.</p>
+          </div>
+          <a href="https://github.com/VictorDevRocha/Buscador-CEP" target="_blank" class="btn btn-dark">Ir para o GitHub</a>
         </div>
-      </div>
-      <div class="card AjustBtn CardHover" style="width: 18rem;">
-        <img src="./image/card/register.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Register-page</h5>
-          <p class="card-text">Projeto desenvolvido com o intuito de trazer uma página de registro onde o usuário possa se registrar inserindo diversos dados através dos inputs, foi aplicado também responsividade ao Projeto.</p>
-          <a href="https://github.com/VictorDevRocha/Register-page" class="btn btn-primary" target="_blank">Ir para o GitHub</a>
+        <div class="card AjustBtn CardHover" style="width: 18rem;">
+          <img src="./image/card/register.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Register-page</h5>
+            <p class="card-text">Projeto desenvolvido com o intuito de trazer uma página de registro onde o usuário possa se registrar inserindo diversos dados através dos inputs, foi aplicado também responsividade e validação com js ao Projeto.</p>
+          </div>
+          <a href="https://github.com/VictorDevRocha/Register-page" class="btn btn-dark" target="_blank">Ir para o GitHub</a>
         </div>
-      </div>
-      <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/gerador.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Gerador-Senha</h5>
-          <p class="card-text">O Projeto foi feito usando Javascript, onde gera uma senha de 5-25 caracteres com letras maiúsculas, minusculas e símbolos, tendo a opção de copiar a senha automaticamente clicando no espaço onde esta a senha gerada.</p>
-          <a href="https://github.com/VictorDevRocha/Gerador-Senha" class="btn btn-primary" target="_blank">Ir para o GitHub</a>
+        <div class="card CardHover" style="width: 18rem;">
+          <img src="./image/card/gerador.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gerador-Senha</h5>
+            <p class="card-text">O Projeto foi feito usando Javascript, onde gera uma senha de 5-25 caracteres com letras maiúsculas, minusculas e símbolos, tendo a opção de copiar a senha automaticamente clicando no espaço onde esta a senha gerada.</p>
+          </div>
+          <a href="https://github.com/VictorDevRocha/Gerador-Senha" class="btn btn-dark" target="_blank">Ir para o GitHub</a>
         </div>
-      </div>
-  
-    </div>
-    <div class="Project2">
-      <div class="card AjustBtn CardHover" style="width: 18rem;">
-        <img src="./image/card/onebitx.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">OneBitX</h5>
-          <p class="card-text">Site da nasa sobre seus Projetos, Projeto feito principalmente com Bootstrap onde foi usado diversos componentes para a criação das páginas, e para animação foi usada a Biblioteca AOS.</p>
-          <a href="https://github.com/VictorDevRocha/OneBitX" class="btn btn-primary" target="_blank">Ir para o GitHub</a>
+
+        <div class="card AjustBtn CardHover" style="width: 18rem;">
+          <img src="./image/card/onebitx.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">OneBitX</h5>
+            <p class="card-text">Site da nasa sobre seus Projetos, Projeto feito principalmente com Bootstrap onde foi usado diversos componentes para a criação das páginas, e para animação foi usada a Biblioteca AOS.</p>
+          </div>
+          <a href="https://github.com/VictorDevRocha/OneBitX" class="btn btn-dark" target="_blank">Ir para o GitHub</a>
         </div>
-      </div>
-      <div class="card AjustBtn CardHover" style="width: 18rem;">
-        <img src="./image/card/calculadora.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Calculadora-JS</h5>
-          <p class="card-text">Desenvolvido uma calculadora que faz todas as funções básicas das calculadoras, utilizando principalmente as FUNÇÕES do javascript e principalmente o DOM.</p>
-          <a href="https://github.com/VictorDevRocha/Calculadora-JS" class="btn btn-primary" target="_blank">Ir para o GitHub</a>
+        <div class="card AjustBtn CardHover" style="width: 18rem;">
+          <img src="./image/card/calculadora.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Calculadora-JS</h5>
+            <p class="card-text">Desenvolvido uma calculadora que faz todas as funções básicas das calculadoras, utilizando principalmente as FUNÇÕES do javascript e principalmente o DOM.</p>
+          </div>
+          <a href="https://github.com/VictorDevRocha/Calculadora-JS" class="btn btn-dark" target="_blank">Ir para o GitHub</a>
         </div>
-      </div>
-      <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/media.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Nota-Media</h5>
-          <p class="card-text">Foi desenvolvido um Projeto onde calcula a Média de nota entre duas notas, onde se usa o Javascript para receber os valores dos inputs e em seguida valida os valores, e devolve ao usuário se ele esta "aprovado","reprovado" ou em "recuperação".</p>
-          <a href="https://github.com/VictorDevRocha/Nota-Media" class="btn btn-primary" target="_blank">Ir para o GitHub</a>
+        <div class="card CardHover" style="width: 18rem;">
+          <img src="./image/card/media.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nota-Media</h5>
+            <p class="card-text">Foi desenvolvido um Projeto onde calcula a Média de nota entre duas notas, onde se usa o Javascript para receber os valores dos inputs e em seguida valida os valores, e devolve ao usuário se ele esta "aprovado","reprovado" ou em "recuperação".</p>
         </div>
+        <a href="https://github.com/VictorDevRocha/Nota-Media" class="btn btn-dark" target="_blank">Ir para o GitHub</a>
       </div>
     </div>
   </div>
     <div class="container4" id="Contato" data-aos="fade-down"
     data-aos-easing="linear" data-aos-duration="1200">
-      <h1 class="TextHover">Entre em contato</h1>
+      <h1 class="TextHover">ENTRE EM CONTATO</h1>
       <div class="ContactContent">
-      <a href="tel:+5513982051521"><img src="image/contact/telefone.png" alt="Telefone" class="ContactIcons"></a>
       <a href="mailto:victorrochadev0@gmail.com"><img src="image/contact/gmail.png" alt="gmail" class="ContactIcons"></a>
       <a href="https://www.instagram.com/viictor_rxd/" target="_blank"><img src="image/contact/instagram.png" alt="instagram" class="ContactIcons"></a>
       <a href="https://api.whatsapp.com/send?phone=5513982051521&text=Ol%C3%A1%20Victor." target="_blank"><img src="image/contact/zap.png" alt="Whatszap" class="ContactIcons"></a>
@@ -133,7 +128,7 @@
     </div>
   </div>
 
-  <footer class="container-fluid footer">
+  <footer class="navbar navbar-dark bg-dark footer">
     <span class="me-4 copyOBC">By Victor Rocha &copy; 2022</span>
       <a href="https://www.instagram.com/viictor_rxd/" target="blank" class="me-4">Instagram</a>
       <a href="https://www.linkedin.com/in/victor-rocha-58056223a/" target="blank" class="me-4">LinkedIn</a>
