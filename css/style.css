@@ -25,17 +25,17 @@ body::-webkit-scrollbar-thumb {
 
 .navBar {
   font-family: "roboto";
-  font-size: 22px;
-  padding-right: 28%; }
+  font-size: 15px; }
 
-.btnTop {
-  text-align: end; }
-
-.btntop {
-  position: fixed; }
+.navBar a {
+  margin-left: 20px; }
 
 .marginLogo {
-  margin-left: 20%; }
+  margin-left: 2%; }
+
+.containerTest div {
+  display: flex;
+  justify-content: space-evenly; }
 
 .container0 {
   height: 15vh; }

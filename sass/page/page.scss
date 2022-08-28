@@ -29,20 +29,21 @@ body::-webkit-scrollbar-thumb {
 
 .navBar {
   font-family: "roboto";
-  font-size: 22px;
-  padding-right: 28%;
+  font-size: 15px;
 }
 
-.btnTop {
-  text-align: end;
+.navBar a {
+  margin-left: 20px;
 }
 
-.btntop{
-  position: fixed;
-}
 
 .marginLogo {
-  margin-left: 20%;
+  margin-left: 2%;
+}
+
+.containerTest div {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .container0 {
@@ -82,7 +83,6 @@ body::-webkit-scrollbar-thumb {
 .container1 h1 {
   font-size: 55px;
   font-family: "roboto";
-  
 }
 
 .text-muted p {
