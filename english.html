@@ -15,9 +15,10 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg noSelecDrag">
     <div class="container-fluid">
-      <a class="navbar-brand marginLogo" href="#"><img src="image/logo/teste.png" class="logo" alt=""></a>
+      <a class="navbar-brand marginLogo" href="#" draggable="false"><img src="image/logo/teste.png" class="logo" alt=""
+          draggable="false"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,8 +28,8 @@
           <a class="nav-link active" aria-current="page" href="#Sobre">About</a>
           <a class="nav-link active" aria-current="page" href="#Portfolio">Project</a>
           <a class="nav-link active" ar ia-current="page" href="#Contato">Contact</a>
-          <a class="nav-link active" ar ia-current="page" href="index.html"><img src="image/logo/brasil.png"
-              class="english" alt="pt-br"></a>
+          <a class="nav-link active" ar ia-current="page" href="index.html" draggable="false"><img
+              src="image/logo/brasil.png" class="english" alt="pt-br" draggable="false"></a>
         </div>
       </div>
     </div>
@@ -45,7 +46,7 @@
       <a href="#Contato"><button type="button" class="btn btn-outline-dark btn-lg FirstPageHover">Contact</button></a>
     </section>
     <section class="section2" data-aos="fade-up" data-aos-duration="1200">
-      <img src="./image/2.jpg" class="FirstImage TextHover" alt="...">
+      <img src="./image/2.jpg" class="FirstImage TextHover noSelecDrag" alt="..." draggable="false">
     </section>
   </div>
 
@@ -58,25 +59,25 @@
     </section>
     <section class="section4">
       <h1 class="TextHover">TECHNOLOGIES</h1>
-      <div class="ContentIcons1">
-        <img src="./image/photo/html.png" alt="HTML5" class="IconHover" />
-        <img src="./image/photo/boot.png" alt="BOOTSTRAP" class="IconHover" />
-        <img src="./image/photo/css.png" alt="CSS3" class="IconHover" />
-        <img src="./image/photo/node.png" alt="NODEJS" class="IconHover" />
-        <img src="./image/photo/react.png" alt="REACT" class="IconHover iconWidht" />
-        <img src="./image/photo/java.png" alt="java" class="IconHover" />
-        <img src="./image/photo/type.png" alt="typescript" class="IconHover" />
-        <img src="./image/photo/gitt.png" alt="git" class="IconHover" />
-        <img src="./image/photo/sass.png" alt="sass" class="IconHover" />
+      <div class="ContentIcons1 noSelecDrag">
+        <img src="./image/photo/html.png" alt="HTML5" class="IconHover" draggable="false" />
+        <img src="./image/photo/boot.png" alt="BOOTSTRAP" class="IconHover" draggable="false" />
+        <img src="./image/photo/css.png" alt="CSS3" class="IconHover" draggable="false" />
+        <img src="./image/photo/node.png" alt="NODEJS" class="IconHover" draggable="false" />
+        <img src="./image/photo/react.png" alt="REACT" class="IconHover iconWidht" draggable="false" />
+        <img src="./image/photo/java.png" alt="java" class="IconHover" draggable="false" />
+        <img src="./image/photo/type.png" alt="typescript" class="IconHover" draggable="false" />
+        <img src="./image/photo/gitt.png" alt="git" class="IconHover" draggable="false" />
+        <img src="./image/photo/sass.png" alt="sass" class="IconHover" draggable="false" />
       </div>
     </section>
   </div>
 
-  <div class="container3" id="Portfolio">
+  <div class="container3 noSelecDrag" id="Portfolio">
     <h1 class="TextHover">MY PROJECTS</h1>
     <div class="Project1">
       <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/buscador.png" class="card-img-top" alt="...">
+        <img src="./image/card/buscador.png" class="card-img-top" alt="..." draggable="false">
         <div class="card-body">
           <h5 class="card-title">zip-Code-search</h5>
           <p class="card-text">Project developed consuming an external API where it consults the zip code by typing by
@@ -86,7 +87,7 @@
       </div>
 
       <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/register.png" class="card-img-top" alt="...">
+        <img src="./image/card/register.png" class="card-img-top" alt="..." draggable="false">
         <div class="card-body">
           <h5 class="card-title">Register-page</h5>
           <p class="card-text">Project developed with the objective of bringing a registration page where the user can
@@ -98,7 +99,7 @@
       </div>
 
       <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/gerador.png" class="card-img-top" alt="...">
+        <img src="./image/card/gerador.png" class="card-img-top" alt="..." draggable="false">
         <div class="card-body">
           <h5 class="card-title">Password-Generator</h5>
           <p class="card-text">The Project was made using Javascript, which generates a password of 5-25 characters with
@@ -109,7 +110,7 @@
       </div>
 
       <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/onebitx.png" class="card-img-top" alt="...">
+        <img src="./image/card/onebitx.png" class="card-img-top" alt="..." draggable="false">
         <div class="card-body">
           <h5 class="card-title">OneBitX</h5>
           <p class="card-text">Nasa's website about its Projects, developed mainly with Bootstrap, where several
@@ -119,7 +120,7 @@
       </div>
 
       <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/calculadora.png" class="card-img-top" alt="...">
+        <img src="./image/card/calculadora.png" class="card-img-top" alt="..." draggable="false">
         <div class="card-body">
           <h5 class="card-title">Calculator-JS</h5>
           <p class="card-text">Developed a calculator that does all the basic functions of calculators, using mainly
@@ -129,7 +130,7 @@
       </div>
 
       <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/media.png" class="card-img-top" alt="...">
+        <img src="./image/card/media.png" class="card-img-top" alt="..." draggable="false">
         <div class="card-body">
           <h5 class="card-title">Average-grade</h5>
           <p class="card-text">A project was developed where the average grade between two grades is calculated, where
@@ -140,7 +141,7 @@
       </div>
 
       <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/crud.png" class="card-img-top" alt="...">
+        <img src="./image/card/crud.png" class="card-img-top" alt="..." draggable="false">
         <div class="card-body">
           <h5 class="card-title">CRUD-REACT</h5>
           <p class="card-text">Project developed with the purpose of creating a CRUD, being able to insert your name and
@@ -152,7 +153,7 @@
       </div>
 
       <div class="card CardHover" style="width: 18rem;">
-        <img src="./image/card/Clima.png" class="card-img-top" alt="...">
+        <img src="./image/card/Clima.png" class="card-img-top" alt="..." draggable="false">
         <div class="card-body">
           <h5 class="card-title">Climate</h5>
           <p class="card-text">Project developed consuming an external API where it queries the location typed by the
@@ -165,7 +166,7 @@
   </div>
 
 
-  <div class="container4" id="Contato">
+  <div class="container4 noSelecDrag" id="Contato">
     <h1 class="TextHover">CONTACT</h1>
     <div class="ContactContent">
       <a href="mailto:victorrochadev0@gmail.com"><img src="image/contact/gmail.png" alt="gmail"

@@ -224,6 +224,9 @@ body::-webkit-scrollbar-thumb {
     text-decoration: none;
     color: white; }
 
+.noSelecDrag {
+  user-select: none; }
+
 @media (max-width: 990px) {
   .container2 h1, .container3 h1 {
     font-size: 40px;
