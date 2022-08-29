@@ -35,6 +35,11 @@ body::-webkit-scrollbar-thumb {
   height: 60px;
   width: 60px; }
 
+.english {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px; }
+
 .marginLogo {
   margin-left: 10%; }
 
@@ -258,5 +263,11 @@ body::-webkit-scrollbar-thumb {
   .Description {
     padding-left: 2%;
     padding-right: 2%; } }
+.Hello {
+  padding-right: 120px; }
+
+@media (max-width: 750px) {
+  .Hello {
+    padding-right: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
