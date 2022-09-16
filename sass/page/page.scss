@@ -31,6 +31,18 @@ body::-webkit-scrollbar-thumb {
   font-family: "roboto";
   font-size: 15px;
   margin-right: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.active:hover {
+  border-bottom: 2px solid white;
+}
+
+.active {
+  padding-bottom: 1px;
 }
 
 
